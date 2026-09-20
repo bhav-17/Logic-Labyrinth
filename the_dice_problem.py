@@ -1,3 +1,7 @@
+#Q. You are given a cubic dice with 6 faces. All the individual faces have a number printed on them. The numbers are in the range of 1 to 6, like any ordinary dice. You will be provided with a face of this cube, your task is to guess the number on the opposite face of the cube.
+
+#Solution:
+
 f = int(input('Enter the number on face: '))
 list_1 = [1, 2, 3]
 list_2 = [6, 5, 4]
@@ -8,13 +12,3 @@ elif f in list_2:
     print(list_1[list_2.index(f)])
 else:
     print("Invalid die face")
-# if f==list_1[0]:
-#   print(list_2[0])
-# elif f==list_1[1]:
-#   print(list_2[1])
-# elif f==list_1[2]:
-#   print(list_2[2])
-# else:
-#   print("Out of range!")
-
-#Sample Concept: f ka value i ka konsa index se match krra h uska corresponding index j ka print kra do
