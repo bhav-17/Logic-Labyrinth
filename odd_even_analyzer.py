@@ -1,3 +1,7 @@
+# Take multiple numbers Separate them into even and odd lists Count each
+
+#Solution:
+
 num_list =input("Enter numbers separated by comma: ").split(",")
 even_list=[]
 odd_list=[]
