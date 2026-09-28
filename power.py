@@ -1,4 +1,4 @@
-#Q. Given two positive numbers x and y, check if y is a power of x or not.
+# Q. Given two positive numbers x and y, check if y is a power of x or not.
 
 #Solution:
 
