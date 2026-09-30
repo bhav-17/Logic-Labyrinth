@@ -7,5 +7,4 @@ sum=0
 for i in range(1,n+1):
     sq=i**2
     sum+=sq
-    i+=1
 print(sum)
