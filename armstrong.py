@@ -4,7 +4,6 @@
 
 #Solution:
 
-
 num = input("Enter a number: ")
 power = len(num)
 total = 0
