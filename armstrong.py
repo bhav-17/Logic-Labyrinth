@@ -4,11 +4,14 @@
 
 #Solution:
 
-num=input("Enter a number: ")
-sum=0
-for i in num:
-    if sum==int(i)**len(num):
-        print("The number is an Armstrong number")
-        break
-    else:
-        print("The number is not an Armstrong number")
+
+num = input("Enter a number: ")
+power = len(num)
+total = 0
+for digit in num:
+    total += int(digit) ** power
+
+if total == int(num):
+    print("The number is an Armstrong number")
+else:
+    print("The number is not an Armstrong number")
