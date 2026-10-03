@@ -2,8 +2,6 @@
 
 # Solution:
 
-# Given a number n, find all prime numbers less than or equal to n.
-
 n=int(input("Enter a number: "))
 prime=[]
 for i in range(1,n+1):
