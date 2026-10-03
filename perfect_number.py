@@ -14,4 +14,3 @@ if sum==num:
     print(True)
 else:
     print(False)
-
