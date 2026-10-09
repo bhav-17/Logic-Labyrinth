@@ -13,4 +13,3 @@ for i in range(1,root):
         break
 else:
     print("False")
-    
