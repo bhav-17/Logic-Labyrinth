@@ -2,11 +2,14 @@
 
 #Solution:
 
-a=int(input("Enter a: "))
-b=int(input("Enter b: "))
-if a%b==0 and a>b:
-    print(a)
-elif b%a==0 and b>a:
-    print(b)
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+if num1 > num2:
+    greater = num1
 else:
-    print(a*b)
+    greater = num2
+while True:
+    if greater % num1 == 0 and greater % num2 == 0:
+        break
+    greater += 1
+print("The LCM is:", greater)
